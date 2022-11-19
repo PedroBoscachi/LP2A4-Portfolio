@@ -6,11 +6,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Aluno CRUD</title>
+<title>Atualizar</title>
 </head>
 <body>
-<!-- Configurar o escopo com request permite receber o atributo colocado no request -->
-<!-- o id deve ter o mesmo nome do atributo configurado no request -->
 <jsp:useBean id="aluno" class="lp2a4.modelo.AlunoPOJO" scope="request"></jsp:useBean>
 
 <form id="update_form" action="./controller">
@@ -28,15 +26,15 @@
 		<label>Data de Conclusão</label>
 		<input class="edicao" type="text" id="dataConclusao" name="dataConclusao" value="<jsp:getProperty property="dataConclusao" name="aluno"/>"/>
 	</div>
-	<input type="submit" value="Confirmar edição!"/>
+	<input type="submit" value="Editar"/>
 </form>
 <form id="delete_form" action="./controller">
 	<input type="hidden" name="acao" id="acao" value="<%=CommandEnum.DELETE%>"/>
 	<input type="hidden" name="matricula" id="matricula" value="<jsp:getProperty property="matricula" name="aluno"/>"/>
-	<input type="submit" value="Apagar estudante!"/>
+	<input type="submit" value="Deletar"/>
 </form>
 <form id="novo_form" action="./novo_aluno.jsp">
-	<input type="submit" value="Criar novo aluno!" />
+	<input type="submit" value="Criar aluno" />
 </form>
 </body>
 </html>

@@ -5,11 +5,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Aluno CRUD</title>
+<title>Cadastro</title>
 </head>
 <body>
-<!-- Configurar o escopo com request permite receber o atributo colocado no request -->
-<!-- o id deve ter o mesmo nome do atributo configurado no request -->
 
 <form id="create_form" action="./controller">
 	<input type="hidden" name="acao" id="acao" value="<%=CommandEnum.CREATE%>"/>
@@ -28,6 +26,6 @@
 	</div>
 	
 	
-	<input type="submit" value="Confirmar criação!"/>
+	<input type="submit" value="Criar"/>
 </form>
 </body>

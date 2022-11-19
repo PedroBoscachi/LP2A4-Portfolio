@@ -26,7 +26,7 @@ public class AlunoPropertiesDAO implements AlunoDAO {
 	/**
 	 * A depender do sistema operacional será necessário alterar o caminho do arquivo
 	 */
-	private static final String CAMINHO_ARQUIVO = "/tmp/baseAlunos.properties";
+	private static final String CAMINHO_ARQUIVO = "C:\\Windows\\Temp\\baseAlunos.properties";
 	
 	/**
 	 * Bloco estático - Está sendo utilizado para inicilizar o objeto
