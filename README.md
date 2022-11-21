@@ -19,8 +19,8 @@ Todas as atividades requisitadas terão uma pasta no repositório destinada apen
 
 ## Índice
 
-- [Atividade 1] (#Atividade 1)
-- [Atividade 2] (#Atividade 2)
-- [Github 2] (#Github 2)
-- [Github 3] (#Github 3)
-- [Github 4] (#Github 4)
+- [Atividade 2] (https://github.com/PedroBoscachi/LP2A4-Portfolio/tree/master/Atividades/Atividade2)
+- [Atividade 3] (https://github.com/PedroBoscachi/LP2A4-Portfolio/tree/master/Atividades/Atividade3/pedro-basico)
+- [Github 2] (https://github.com/PedroBoscachi/LP2A4-Portfolio/tree/master/Atividades/Github2)
+- [Github 3] (https://github.com/PedroBoscachi/LP2A4-Portfolio/tree/master/Atividades/Github3)
+- [Github 4] (https://github.com/PedroBoscachi/LP2A4-Portfolio/tree/master/Atividades/Github4)
