@@ -3,10 +3,6 @@ package entidades;
 import java.io.Serializable;
 import javax.persistence.*;
 
-/**
- * Entity implementation class for Entity: Filme
- *
- */
 @Entity
 
 public class Filme implements Serializable {

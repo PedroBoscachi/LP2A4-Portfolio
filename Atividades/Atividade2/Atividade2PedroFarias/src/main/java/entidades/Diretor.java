@@ -3,10 +3,6 @@ package entidades;
 import java.io.Serializable;
 import javax.persistence.*;
 
-/**
- * Entity implementation class for Entity: Diretor
- *
- */
 @Entity
 
 public class Diretor implements Serializable {
