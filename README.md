@@ -9,7 +9,7 @@
 
 ## Objetivo 👨‍🎓
 
-Portfólio criado com o objetivo de armazenar todas atividades, experiências, trabalhos e projetos realizados na disciplina de Linguagen de Programação II, ministrada pelo professor Diego Caldas Chaves.
+Portfólio criado com o objetivo de armazenar todas atividades, experiências, trabalhos e projetos realizados na disciplina de Linguagem de Programação II, ministrada pelo professor Diego Caldas Chaves.
 
 <br>
 
