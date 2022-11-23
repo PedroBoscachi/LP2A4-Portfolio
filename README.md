@@ -9,7 +9,7 @@
 
 ## Objetivo 👨‍🎓
 
-Portfólio criado com o objetivo de armazenar todas atividades, experiências, trabalhos e projetos realizados na disciplina de Linguagen de Programação II, ministrada pelo professor Diego Caldas Chaves.
+Portfólio criado com o objetivo de armazenar todas atividades, experiências, trabalhos e projetos realizados na disciplina de Linguagem de Programação II, ministrada pelo professor Diego Caldas Chaves.
 
 <br>
 
@@ -21,7 +21,6 @@ Todas as atividades requisitadas terão uma pasta no repositório destinada apen
 
 - [Atividade 1] (https://github.com/PedroBoscachi/LP2A4-Portfolio/tree/master/Atividades/Atividade1)
 - [Atividade 2] (https://github.com/PedroBoscachi/LP2A4-Portfolio/tree/master/Atividades/Atividade2)
-- [Atividade 3] (https://github.com/PedroBoscachi/LP2A4-Portfolio/tree/master/Atividades/Atividade3/pedro-basico)
 - [Github 1] (https://github.com/PedroBoscachi/LP2A4-Portfolio/tree/master/Atividades/Github1)
 - [Github 2] (https://github.com/PedroBoscachi/LP2A4-Portfolio/tree/master/Atividades/Github2)
 - [Github 3] (https://github.com/PedroBoscachi/LP2A4-Portfolio/tree/master/Atividades/Github3)
