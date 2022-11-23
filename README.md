@@ -25,3 +25,7 @@ Todas as atividades requisitadas terão uma pasta no repositório destinada apen
 - [Github 2](https://github.com/PedroBoscachi/LP2A4-Portfolio/tree/master/Atividades/Github2)
 - [Github 3](https://github.com/PedroBoscachi/LP2A4-Portfolio/tree/master/Atividades/Github3)
 - [Github 4](https://github.com/PedroBoscachi/LP2A4-Portfolio/tree/master/Atividades/Github4)
+
+## Notion
+
+- [Notion](https://pedro-farias.notion.site/df7c6660fba74223a7fedaf5cf11b7ca?v=cf3409a2a2c644a0a7bba0aa43926b96)
