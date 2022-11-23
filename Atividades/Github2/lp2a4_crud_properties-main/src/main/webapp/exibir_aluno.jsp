@@ -9,8 +9,6 @@
 <title>Alunos</title>
 </head>
 <body>
-<!-- Configurar o escopo com request permite receber o atributo colocado no request -->
-<!-- o id deve ter o mesmo nome do atributo configurado no request -->
 <jsp:useBean id="aluno" class="lp2a4.modelo.AlunoPOJO" scope="request"></jsp:useBean>
 
 <form id="exibir_form" action="./controller">

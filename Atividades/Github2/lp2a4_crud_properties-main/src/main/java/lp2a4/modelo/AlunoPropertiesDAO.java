@@ -23,16 +23,8 @@ public class AlunoPropertiesDAO implements AlunoDAO {
 	
 	static final Properties baseAluno = new Properties();
 	
-	/**
-	 * A depender do sistema operacional será necessário alterar o caminho do arquivo
-	 */
 	private static final String CAMINHO_ARQUIVO = "C:\\Windows\\Temp\\baseAlunos.properties";
 	
-	/**
-	 * Bloco estático - Está sendo utilizado para inicilizar o objeto
-	 * baseAluno com o conteúdo do arquivo de propriedades.
-	 * 
-	 */
 	static {
 		try {
 			final FileInputStream file = new FileInputStream(CAMINHO_ARQUIVO);
@@ -45,12 +37,6 @@ public class AlunoPropertiesDAO implements AlunoDAO {
 
 	}
 	
-	/**
-	 * Persiste no arquivo de propriedade as informações do objeto baseAluno que estão na memória.
-	 * 
-	 *  É sincronizado para evitar que mais de um salvamento seja realizado concorrentemente, isso
-	 *  contudo não evitará race conditions. 
-	 */
 	private static synchronized void save() {
 		try (final FileOutputStream file = new FileOutputStream(CAMINHO_ARQUIVO)) {
 			baseAluno.store(file, null);

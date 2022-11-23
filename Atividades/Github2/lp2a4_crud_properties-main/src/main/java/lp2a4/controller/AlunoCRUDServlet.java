@@ -47,21 +47,6 @@ public class AlunoCRUDServlet extends HttpServlet {
 		processRequest(request, response);
 	}
 	
-	/**
-	 * A única ação realizada pelo FrontController é determinar quem irá tratar a requisição e delegá-la para ele.
-	 * 
-	 * Por se tratar de um único CRUD de exemplo um controller sozinho deu conta de tudo.
-	 * 
-	 * Em aplicações mais complexas podem haver diversas funcionalidades e assim o FrontController pode delegar
-	 * a tarefa de tratar as requisições que chegam para ApplicationControllers, ou podem haver vários Servlets
-	 * tratando cada uma das funcionalidades.
-	 * 
-	 * A estratégia de delegação utilizada foi o padrão de projeto Command. Por se tratar de uma aplicação bem 
-	 * simplificada, nem mesmo seriam necessários os Commands, cada ação poderia estar implementada em um método
-	 * no próprio FrontController. Porém, a separação permite implementar novos comandos.
-	 * @param request
-	 * @param response
-	 */
 	private void processRequest(HttpServletRequest request, HttpServletResponse response) {
 		final String acaoParam = request.getParameter("acao");
 		

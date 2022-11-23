@@ -11,7 +11,6 @@ import java.time.format.DateTimeFormatter;
  */
 public final class AlunoUtil {
 	
-	//impede que alguém instancie a classe.
 	private AlunoUtil() {}
 	
 	public static final DateTimeFormatter DATE_FORMAT = DateTimeFormatter.ofPattern("dd/MM/uuuu");
